@@ -63,9 +63,6 @@ exclude = [
 [tool.ruff.lint]
 select = ['E', 'F', 'W']
 
-[tool.ruff.format]
-line-length = 130
-
 [tool.coverage.run]
 omit = [
     "src/**/_version.py",
