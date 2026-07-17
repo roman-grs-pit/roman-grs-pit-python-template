@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/472725375.svg)](https://zenodo.org/badge/latestdoi/472725375)
-
 # roman-grs-pit-python-template
 
 This repository contains a Python template suitable for starting new projects. This template has three main goals:
