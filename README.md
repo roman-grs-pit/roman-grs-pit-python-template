@@ -16,9 +16,9 @@ There is a lot of (sometimes contradictory) information on how to package a Pyth
 
 Click on the green "Use This Template" button in the upper right corner of the screen to make a copy of the template.
 
-**Select location for the new repository. For projects led by MPIA staff and/or with an MPIA advisor, we encourage you to create your copy within the `mpi-astronomy` organization but you can also create a copy under your own account.**
+Select location for the new repository. For projects led by related to the work of the Roman GRS PIT, the project should live in this organization. You are however welcome to use this tempate for unrelated projects within your personal account. 
 
-Select a name for your repository, select if it should be Public (recommended) or Private. Here as an example we will use `new_project` as the name of your new repository. 
+Select a name for your repository, select if it should be Public or Private. Here as an example we will use `new_project` as the name of your new repository. 
 
 Click on the `Create Repository from Template` button.
 
