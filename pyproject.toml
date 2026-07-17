@@ -1,6 +1,6 @@
 [project]
 name = "my_package"
-authors = [{name = "Example Author", email = "author@mpia.de"}]
+authors = [{name = "Example Author", email = "author@example.com"}]
 description = "An example package"
 readme = "README.md"
 license = { file = 'LICENSE' }
@@ -20,6 +20,7 @@ docs = [
     "sphinx",
     "sphinx-automodapi",
     "numpydoc",
+    "furo",
 ]
 test = [
     "pytest",
@@ -31,9 +32,9 @@ test = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/mpi-astronomy"
-"Bug Tracker" = "https://github.com/mpi-astronomy/CHANGEME/issues"
-"Source Code" = "https://github.com/mpi-astronomy/CHANGEME"
+"Homepage" = "https://github.com/roman-grs-pit"
+"Bug Tracker" = "https://github.com/roman-grs-pit/roman-grs-pit-python-template/issues"
+"Source Code" = "https://github.com/roman-grs-pit/roman-grs-pit-python-template"
 
 [build-system]
 requires = [

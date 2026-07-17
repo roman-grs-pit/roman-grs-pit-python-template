@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/472725375.svg)](https://zenodo.org/badge/latestdoi/472725375)
 
-# mpia-python-template
+# roman-grs-pit-python-template
 
 This repository contains a Python template suitable for starting new projects. This template has three main goals:
 - To create a properly 
@@ -16,7 +16,7 @@ There is a lot of (sometimes contradictory) information on how to package a Pyth
 
 Click on the green "Use This Template" button in the upper right corner of the screen to make a copy of the template.
 
-Select location for the new repository. For projects led by MPIA staff and/or with an MPIA advisor, we encourage you to create your copy within the `mpi-astronomy` organization but you can also create a copy under your own account.
+**Select location for the new repository. For projects led by MPIA staff and/or with an MPIA advisor, we encourage you to create your copy within the `mpi-astronomy` organization but you can also create a copy under your own account.**
 
 Select a name for your repository, select if it should be Public (recommended) or Private. Here as an example we will use `new_project` as the name of your new repository. 
 
@@ -33,11 +33,11 @@ Click on the `Create Repository from Template` button.
 
 2. Make a copy of the repository on your computer. Click on the green `Code` button and copy the HTTPS or SSH link, depending on how you authenticate with GitHub.
 
-        git clone https://github.com/mpi-astronomy/new_project.git
+        git clone https://github.com/roman-grs-pit/new_project.git
 
     or
 
-        git clone git@github.com:mpi-astronomy/new_project.git
+        git clone git@github.com:roman-grs-pit/new_project.git
 
     If you have not set up HTTPS or SSH authentication for GitHub on your computer, then follow the instructions [here for HTTPS](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) or [here for SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -47,12 +47,12 @@ Click on the `Create Repository from Template` button.
 
         [project]
         name = "new_package_name"
-        authors = [{name = "Example Author", email = "author@mpia.de"}]
+        authors = [{name = "Example Author", email = "author@example.com"}]
         description = "An example package"
 
         [project.urls]
-        "Bug Tracker" = "https://github.com/mpi-astronomy/new_project/issues"
-        "Source Code" = "https://github.com/mpi-astronomy/new_project"
+        "Bug Tracker" = "https://github.com/roman-grs-pit/new_project/issues"
+        "Source Code" = "https://github.com/roman-grs-pit/new_project"
 
         [tool.setuptools_scm]
         write_to = "src/new_package_name/_version.py"
@@ -104,7 +104,7 @@ Click on the `Create Repository from Template` button.
 
 1. Do not change the `LICENSE` file and definitely do not delete it. For more information, see [this article](https://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/). 
 
-2. If the copy is within the `mpi-astronomy` GitHub organization, do not edit the `CODE_OF_CONDUCT.md` file. If the copy is under your personal account, please customize the `CODE_OF_CONDUCT.md` file. One easy way to do that is to remove the text in square braces and to edit the reporting section to read "Any violations of the Code of Conduct should be reported to the owners of this repository."
+2. If the copy is within the `roman-grs-pit` GitHub organization, do not edit the `CODE_OF_CONDUCT.md` file. If the copy is under your personal account, please customize the `CODE_OF_CONDUCT.md` file. One easy way to do that is to remove the text in square braces and to edit the reporting section to read "Any violations of the Code of Conduct should be reported to the owners of this repository."
 
 3. Using this Python packaging template gives you the most up-to-date way to package your Python code.  You do not need to have `setup.py`, `setup.cfg` or `requirements.txt` files.  The `setup.*` files are legacy formats that are now deprecated for most use cases. All your requirements should be listed in the `pyproject.toml` file. If you have a more complex package with C or Fortran code that needs to be compiled during install, you may also need to create a `setup.py` file, but we are going to keep things here simple.
 
@@ -118,7 +118,7 @@ This package template does versioning for your package automatically using `setu
 
 This means that when you have version of your package that you want to tag and release, make sure HEAD is pointing the the commit where you want to tag, and use `git tag A.B.c` to tag it with a proper semantic version.  The next time you install the package, it should show you the updated version based on your tag.
 
-If you do not want to do the automatic versioning (your code is not a git repo or you just want to do your own thing) then use the [`static_version`](https://github.com/mpi-astronomy/mpia-python-template/tree/static_version) branch of the repo. This branch can also be downloaded as a ZIP file and used locally. This is not the recommended workflow however. 
+If you do not want to do the automatic versioning (your code is not a git repo or you just want to do your own thing) then use the [`static_version`](https://github.com/roman-grs-pit/roman-grs-pit-python-template/tree/static_version) branch of the repo. This branch can also be downloaded as a ZIP file and used locally. This is not the recommended workflow however. 
 
 **Installation**
 
@@ -143,7 +143,7 @@ pip install .
 ```
 This is how you can use your package once you are no longer developing it. Any users who are not contributing code can installing your package with:
 ```
-pip install git+https://github.com/mpi-astronomy/new_project
+pip install git+https://github.com/roman-grs-pit/new_project
 ```
 
 **Commit early and often**
@@ -198,6 +198,6 @@ open _build/html/index.html
 ```
 `sphinx` can also generate a PDF of your docs, but this is left as an exercise for the user.
 
-This repository is also set to auto-generate an HTML page with the documentation and creates a GitHub pages webpage. While the files are auto-generated, the page must be made visible in the first place. Go to the `Settings` tab in GitHub and in the left-hand menu navigate to the `Pages` option. Select the `gh-pages` branch in the drop down `Source` menu. This is a one-time setting. The URL for your documentation will be displayed in the green banner. The example documentation page for this repository can be found at [https://mpi-astronomy.github.io/mpia-python-template/](https://mpi-astronomy.github.io/mpia-python-template/). 
+This repository is also set to auto-generate an HTML page with the documentation and creates a GitHub pages webpage. While the files are auto-generated, the page must be made visible in the first place. Go to the `Settings` tab in GitHub and in the left-hand menu navigate to the `Pages` option. Select the `gh-pages` branch in the drop down `Source` menu. This is a one-time setting. The URL for your documentation will be displayed in the green banner. The example documentation page for this repository can be found at [https://roman-grs-pit.github.io/roman-grs-pit-python-template/](https://roman-grs-pit.github.io/roman-grs-pit-python-template/). 
 
 You can disable/enable the auto-generated documentation builds as shown [here](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) or by deleting the `.github/workflows/docs.yml` file (use `git rm`). To unpublish the documentation page, you also need to delete the `gh-pages` branch, see instructions [here](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site#unpublishing-a-project-site).
